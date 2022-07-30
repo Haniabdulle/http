@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <body>
+    
+    <form>
+        <label for="title"> </label>
+        <input id="title" type="text" placeholder="Title...?">
+        <label for="body">Status</label>
+        <input id="body" type="text" placeholder=" Whatsup...">
+        <label for="user_id"> ID</label>
+        <input type="number" id="user_id" placeholder="Id..."> 
+        <input id="submit" type="submit" value="post">
+    </form>
+    <form id="Change">
+      
+        <label for="update_title">Change Title</label>
+        <input type="text" id="update_title" placeholder=" title...">
+        <input type="submit" id="post" value="patch">
+    </form>
+   
+    <input type="submit" id="delete" value="delete">
+    <input type="submit" id="get" value="get"> 
+
+    <div id="container">
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+ <script src="app.js"> </script>   
+        
+   
+</body>
+</html>
